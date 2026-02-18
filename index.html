@@ -1,51 +1,91 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KOK SHOP</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0b0f14;
+  color: #eaf1fb;
+}
 
-<body>
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 30px 20px;
+}
 
-  <div class="container">
+h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
 
-    <h1>KOK SHOP</h1>
-    <p class="subtitle">Equipamiento táctico • Airsoft • TacSim</p>
+.subtitle {
+  color: #a8b3c4;
+  margin-bottom: 25px;
+}
 
-    <div class="buttons">
-      <a href="https://instagram.com/kokshop.arg" class="btn instagram">Instagram</a>
-      <a href="https://wa.me/5491131310742" class="btn whatsapp">WhatsApp</a>
-    </div>
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
 
-    <h2>🔥 Nuevos Ingresos</h2>
+.btn {
+  flex: 1;
+  padding: 14px;
+  text-align: center;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
 
-    <div class="product">
-      <h3>Granadas Matrix</h3>
-      <p>Potencia y realismo en cada partida.</p>
-    </div>
+.instagram {
+  background: #1f2a3a;
+  color: white;
+  border: 1px solid #2a3a52;
+}
 
-    <div class="product">
-      <h3>Baofeng UV-5R</h3>
-      <p>Comunicación clara para tu equipo.</p>
-    </div>
+.instagram:hover {
+  background: #2a3a52;
+}
 
-    <div class="product">
-      <h3>Glock WE Gen 4</h3>
-      <p>Precisión y rendimiento profesional.</p>
-    </div>
+.whatsapp {
+  background: #1f6f2b;
+  color: white;
+}
 
-    <div class="footer">
-      <h2>Dominá el campo</h2>
-      <p>
-        En KOK Shop equipamos operadores reales.  
-        Productos seleccionados, calidad garantizada y asesoramiento personalizado.
-      </p>
-      <p class="copy">© 2026 KOK SHOP | Todos los derechos reservados</p>
-    </div>
+.whatsapp:hover {
+  background: #28a745;
+}
 
-  </div>
+h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
 
-</body>
-</html>
+.product {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #111822;
+  border-radius: 12px;
+  border: 1px solid #1f2a3a;
+}
+
+.product h3 {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.product p {
+  margin: 0;
+  color: #a8b3c4;
+}
+
+.footer {
+  margin-top: 40px;
+}
+
+.copy {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #6c7a8a;
+}
